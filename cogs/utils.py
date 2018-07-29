@@ -802,7 +802,7 @@ Thanks for your understanding.
 
     @commands.command(aliases=['g'])
     async def google(self, ctx, *, query):
-        """Searches google and gives you top result."""
+        """Поиск google and gives you top result."""
         await ctx.trigger_typing()
         try:
             card, entries = await self.get_google_entries(query)
