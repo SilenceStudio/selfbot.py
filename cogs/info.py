@@ -42,7 +42,7 @@ class Information:
 
     @commands.command(no_pm=True)
     async def channels(self, ctx, serverid:int = None):
-        """Shows ALL channels, use wisely!"""
+        """Показывает полный список каналов сервера!"""
 
         if serverid is None:
             server = ctx.guild
